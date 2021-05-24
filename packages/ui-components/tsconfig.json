@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+  },
+  "include": ["src/**/*"],
+}
