@@ -7,7 +7,7 @@ type Props = {
 function Button({ className, children }: Props) {
     return (
         <button type="button" className={className}>
-            {children}
+            {children}hell!!
         </button>
     );
 }
