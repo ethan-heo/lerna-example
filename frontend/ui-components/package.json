@@ -1,0 +1,25 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "ethan-heo <ethan.hb94@gmail.com>",
+  "homepage": "https://github.com/ethan-heo/lerna-example#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethan-heo/lerna-example.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "bugs": {
+    "url": "https://github.com/ethan-heo/lerna-example/issues"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.7",
+    "rollup": "^2.50.0",
+    "rollup-plugin-typescript2": "^0.30.0"
+  }
+}

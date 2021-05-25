@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",  // javascript 언어 버전 설정
+    "moduleResolution": "node", // module 처리 방식 설정
+    "allowSyntheticDefaultImports": true,  // default export가 없는 모듈을 default import 하는 것을 허용 
+    "esModuleInterop": true, // cjm 모듈 호환
+  },
+  "exclude": ["node_modules"]
+}
