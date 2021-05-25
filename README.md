@@ -335,6 +335,29 @@ yarn workspace webapp start
 
 # [번외] lerna version
 
+각 패키지 버전을 설정할 수 있음. 그리고 lerna.json에 아래처럼 옵션을 주면 chnagelog 까지 자동으로 생성됨.
+
+```bash
+  lerna version
+```
+- lerna.json
+```json
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "bootstrap": {
+      "nohoist": "webapp"
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  }
+}
+
+```
+
 ---
 
 # 끝
