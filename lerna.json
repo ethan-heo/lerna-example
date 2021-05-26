@@ -7,7 +7,32 @@
       "nohoist": "webapp"
     },
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "changelogPreset": {
+        "name": "conventional-changelog-conventionalcommits",
+        "types": [
+          {
+            "type": "feat",
+            "section": "🚀 Features"
+          },
+          {
+            "type": "fix",
+            "section": "🐛 Bug Fixes"
+          },
+          {
+            "type": "chore",
+            "hidden": true
+          },
+          {
+            "type": "test",
+            "hidden": true
+          },
+          {
+            "type": "refactor",
+            "hidden": true
+          }
+        ]
+      }
     }
   }
 }
