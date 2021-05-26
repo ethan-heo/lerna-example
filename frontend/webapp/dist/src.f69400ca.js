@@ -29580,11 +29580,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Button({
   children,
-  className
+  className,
+  size = "small"
 }) {
   return _react.default.createElement("button", {
     type: "button",
-    className: className
+    className: `${className} ${size}`
   }, children);
 }
 },{"react":"../../../node_modules/react/index.js"}],"index.tsx":[function(require,module,exports) {

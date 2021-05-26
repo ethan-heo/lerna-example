@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Button({ children, className }) {
-    return (React.createElement("button", { type: "button", className: className }, children));
+function Button({ children, className, size = "small" }) {
+    return (React.createElement("button", { type: "button", className: `${className} ${size}` }, children));
 }
 
 export { Button };
