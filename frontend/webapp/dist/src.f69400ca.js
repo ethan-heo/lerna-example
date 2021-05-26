@@ -29579,10 +29579,12 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Button({
-  children
+  children,
+  className
 }) {
   return _react.default.createElement("button", {
-    type: "button"
+    type: "button",
+    className: className
   }, children);
 }
 },{"react":"../../../node_modules/react/index.js"}],"index.tsx":[function(require,module,exports) {
@@ -29637,7 +29639,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58286" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3762" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
